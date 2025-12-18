@@ -1,0 +1,24 @@
+{
+  "name": "dms-server",
+  "version": "1.0.0",
+  "description": "Document Management System - Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:select": "node server.js --select",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "readline-sync": "^1.4.10",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}

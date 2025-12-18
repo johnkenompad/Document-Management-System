@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env.local
+
+# Database files (keep .env and example databases)
+database.db
+last-database.txt
+network-db-path.txt
+
+# Logs
+*.log
